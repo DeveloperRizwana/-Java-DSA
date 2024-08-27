@@ -4,6 +4,8 @@ public class tough {
         int b = 25; 
         int sum = a + b;
         System.out.println(sum);
+
+
     }
 }
     
