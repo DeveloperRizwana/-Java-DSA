@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class late {
+public class greeting {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int button = sc.nextInt();
