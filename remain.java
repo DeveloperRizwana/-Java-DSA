@@ -9,6 +9,7 @@ public class remain {
         int b = sc.nextInt();
         int remainder = a % b;
         System.out.println(remainder);
-    }    
+    }
+        
     
 }
