@@ -5,8 +5,14 @@ public class loops {
       //  } 
       
       
-      for(int i = 0; i < 21; i++) {
+     // for(int i = 0; i < 21; i++) {
+     //   System.out.println(i);
+     // }
+     
+     int i = 0;
+     while(i < 11) {
         System.out.println(i);
-      }  
+        i = i + 1; // i++;
+     }  
     }
 }
