@@ -2,7 +2,7 @@ import java.util.*;
 
 public class loops2 {
     public static void main(String args[]) {
-      Scanner sc = new Scanner(Sustem.in);
+      Scanner sc = new Scanner(System.in);
       int n = sc.nextInt();
 
       int sum = 0;
