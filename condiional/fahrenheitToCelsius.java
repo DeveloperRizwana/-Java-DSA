@@ -6,12 +6,14 @@ public class fahrenheitToCelsius {
 		
 		Scanner sc = new Scanner(System.in);
 
-		int s = sc.nextInt();
-		int e = sc.nextInt();
-		int w = sc.nextInt();
+		int s = 0;
+		int e = 100;
+		int w = 20;
 
 		for(int i = s; i <= e; i = i + w){
-			System.out.println(i + " " + ((i - 32)*5)/9);
+			int fh = (((i - 32)*5)/9);
+			// System.out.println(i + " " + ((i - 32)*5)/9);
+			System.out.println(i + " " + fh);
 		}
 	}
 
