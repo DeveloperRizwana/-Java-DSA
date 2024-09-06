@@ -9,7 +9,7 @@ public class totalSalary {
         double hra = 0.2 * basic;
         double da = 0.5 * basic;
         int allowance;
-        double pf = 0.11;
+        double pf = 0.11 * basic;
 
         if(grade == 'A'){
             allowance = 1700;
@@ -27,3 +27,11 @@ public class totalSalary {
     }    
  
 }
+// Sample Input 1 :
+// 10000 A
+// Sample Output 1 :
+// 17600
+// Sample Input 2 :
+// 4567 B
+// Sample Output 2 :
+// 8762
