@@ -21,3 +21,7 @@ public class oddSquare {
 
     }
 }
+// 1357
+// 3571
+// 5713
+// 7135
