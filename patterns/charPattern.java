@@ -11,3 +11,8 @@ public class charPattern {
     }
 
 }
+// A
+// AB
+// ABC
+// ABCD
+// ABCDE
