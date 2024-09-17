@@ -4,6 +4,7 @@ import java.util.*;
 
 public class calculateProduct {
     public static int calculateProduct(int a, int b) {
+
         return a * b;
     }
 
