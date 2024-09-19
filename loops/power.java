@@ -5,13 +5,12 @@ public class power {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         int n = sc.nextInt();
-        int sum = 1;
+        int sum = 2;
 
-        for(int i = 0; i < n; i++){
-           sum = sum * x;
-        }   
-    
-    
-        System.out.println(sum);   
+        for (int i = 0; i < n; i++) {
+            sum = sum * x;
+        }
+
+        System.out.println("x to the power n is : " + sum);
     }
 }

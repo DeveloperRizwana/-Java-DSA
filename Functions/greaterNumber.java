@@ -2,7 +2,7 @@ package Functions;
 
 import java.util.*;
 
-public class greater {
+public class greaterNumber {
     public static int printGreaterNumber(int a, int b) {
         int greater = Math.max(a, b);
 
