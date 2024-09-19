@@ -7,13 +7,14 @@ public class factorialSereis {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        int i = 1;
+        // int i = 1;
         int factorial = 1;
-        while (i <= n) {
+        // while (i <= n) {
+        for (int i = 1; i <= n; i++) {
             factorial = factorial * i;
 
-            i++;
-            System.out.println(factorial);
+            // i++;
+            System.out.println("Factorial of " + i + ": " + factorial);
         }
 
     }
