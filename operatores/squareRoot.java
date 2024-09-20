@@ -8,12 +8,16 @@ public class squareRoot {
         int n = sc.nextInt();
 
         int output = 0;
-        // int i = 0;
-        while (output * output <= n) {
-            output += 1;
+        for (int i = 1; i * i <= n; i++) {
+            output = i;
+            // while (output * output <= n) {
+            // output += 1;
+            // }
+            // output -= 1;
         }
-        output -= 1;
         System.out.println(output);
+        // double m = Math.sqrt(n);
+        // System.out.println("Square root of " + n + " is : " + m);
 
     }
 
