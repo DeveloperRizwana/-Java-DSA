@@ -12,7 +12,7 @@ public class loops4 {
 
         for (int i = 1; i <= 10; i++) {
             System.out.println(i * n);
-            // int i = 1;
+            // int i = 1; (2)
             // while (i <= 10) {
             // System.out.println(i * n);
             // i += 1; // i = i + 1; ,,,,, i++

@@ -20,7 +20,9 @@ public class evenOddSum {
             x = x / 10;
 
         }
-        System.out.println(evenSum + " " + oddSum);
+        System.out.println("the ans is : " + evenSum + " , " + oddSum);
     }
 
 }
+// find the even and odd numbers sum
+// let say 1234 = even sum = 6,,,, odd sum = 4
