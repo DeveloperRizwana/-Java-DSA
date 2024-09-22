@@ -11,3 +11,4 @@ public class concatenation {
     }
 
 }
+// concatenation -> add two strings togethor
