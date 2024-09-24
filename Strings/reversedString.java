@@ -4,21 +4,27 @@ import java.util.*;
 
 public class reversedString {
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder("hello");
+        // StringBuilder sb = new StringBuilder("hello");
 
-        for (int i = 0; i < sb.length() / 2; i++) {
-            int front = i;
-            int back = sb.length() - 1 - i;
+        // for (int i = 0; i < sb.length() / 2; i++) {
+        // int front = i;
+        // int back = sb.length() - 1 - i;
 
-            char frontChar = sb.charAt(front);
-            char backChar = sb.charAt(back);
+        // char frontChar = sb.charAt(front);
+        // char backChar = sb.charAt(back);
 
-            sb.setCharAt(front, backChar);
-            sb.setCharAt(back, frontChar);
+        // sb.setCharAt(front, backChar);
+        // sb.setCharAt(back, frontChar);
 
+        // }
+        // System.out.println(sb);
+
+        String s = "Rizu";
+        String rev = "";
+        for (int i = s.length() - 1; i >= 0; i--) {
+            rev += s.charAt(i);
         }
-        System.out.println(sb);
-
+        System.out.println(rev);
     }
 
 }
