@@ -9,10 +9,12 @@ public class practiceclass {
         // a[1] = 20;
         // a[2] = 30;
 
-        for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i]);
+        // for (int i = 0; i < a.length; i++) { ,,,,for loop
+        // System.out.println(a[i]);
+        for (int i : a) { // for each loop
+
+            System.out.print(i + " ,");
         }
 
     }
-
 }
