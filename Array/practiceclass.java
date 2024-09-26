@@ -4,7 +4,7 @@ import java.util.*;
 
 public class practiceclass {
     public static void main(String[] args) {
-        int[] a = { 10, 20, 30 }; // int[] a = new int[3]; ,,,, int [] a=new int[] {10,20,30};
+        int[] a = { 10, 20, 30 }; // int[] a = new int[3]; ,,,, int [] a=new int[]
         // a[0] = 10;
         // a[1] = 20;
         // a[2] = 30;
@@ -14,7 +14,7 @@ public class practiceclass {
         for (int i : a) { // for each loop
 
             System.out.print(i + " ,");
-        }
 
+        }
     }
 }
