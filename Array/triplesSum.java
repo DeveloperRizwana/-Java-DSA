@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class pairSum2 {
+public class triplesSum {
     static int findPairSum(int[] arr, int target) {
         int n = arr.length;
         int ans = 0;
