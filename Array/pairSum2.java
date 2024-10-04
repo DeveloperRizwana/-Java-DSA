@@ -1,19 +1,20 @@
 import java.util.*;
 
-public class pairSum {
-    
-
+public class pairSum2 {
     static int findPairSum(int[] arr, int target) {
         int n = arr.length;
         int ans = 0;
 
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
-                if (arr[i] + arr[j] == target) {
-                    ans++;
+                for (int k = j + 1; k < n; k++) {
+                    if (arr[i] + arr[j] + arr[k] == target) {
+                        ans++;
+                    }
                 }
             }
         }
+
         return ans;
     }
 
@@ -34,6 +35,4 @@ public class pairSum {
 
     }
 }
-
-    
-
+// count the numbeer of triples whose sum is equal to the given value x..
