@@ -9,7 +9,6 @@ public class rotateByDElementLeft {
         System.out.println();
     }
     static void reverse(int[] arr, int i, int j) {
-        // int i = 0; j = arr.length - 1;
         while (i < j) {
             int temp = arr[i];
             arr[i] = arr[j];
@@ -44,9 +43,8 @@ public class rotateByDElementLeft {
         System.out.println("Enter d");
         int d = sc.nextInt();
 
-        // System.out.println("Original array");
-        // printArray(arr);
-        // int[] ans = rotateInPlace(arr, k);
+        System.out.println("Original array");
+        printArray(arr);
         findRotateInPlace(arr, d);
         // System.out.println("Array after rotation");
         // printArray(arr);
