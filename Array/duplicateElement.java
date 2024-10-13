@@ -1,5 +1,5 @@
 public class duplicateElement {
-    static int duplicateElement(int[] arr){
+    static int findduplicateElement(int[] arr){
         int n = arr.length;
         int ans = 0;
         for(int i = 0; i < n; i++){
@@ -13,7 +13,7 @@ public class duplicateElement {
     }
     public static void main(String[] args) {
         int[] arr = {1, 2, 1, 3, 4};
-        int ans = duplicateElement(arr);
+        int ans = findduplicateElement(arr);
         System.out.println("Duplicate elelment " + ans);
     }
 }

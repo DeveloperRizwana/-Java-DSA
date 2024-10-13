@@ -11,7 +11,7 @@ public class sorted012 {
         arr[k] = arr[m];
         arr[m] = temp;
     }
-    static void sorted012(int[] arr){
+    static void findsorted012(int[] arr){
         int Pz = 0;
         int Pt = arr.length - 1;
         int i = 0;
@@ -44,7 +44,7 @@ public class sorted012 {
         System.out.println("Original Array: ");
         printArray(arr);
 
-        sorted012(arr);
+        findsorted012(arr);
 
         System.out.println("Sorted 0 1 2: ");
         printArray(arr);

@@ -16,7 +16,7 @@ public class sortArrayByParity {
         arr[j] = temp;
     }
 
-    static void sortArrayByParity(int[] arr) {
+    static void findsortArrayByParity(int[] arr) {
         int n = arr.length;
         int left = 0, right = n - 1;
 
@@ -47,7 +47,7 @@ public class sortArrayByParity {
         }
         System.out.println("Original Array: ");
         printArray(arr);
-        sortArrayByParity(arr);
+        findsortArrayByParity(arr);
         System.out.println("Sorted Array ");
         printArray(arr);
     }
