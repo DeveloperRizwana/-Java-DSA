@@ -1,10 +1,6 @@
 import java.util.*;
 
 public class rectangleSum3 {
-
-import java.util.*;
-
-public class Main {
     static void prefixSum(int[][] matrix, int r, int c) {
         // traverse horizontally to calculate prefixSum row-wise
         for (int i = 0; i < r; i++) { // fix row

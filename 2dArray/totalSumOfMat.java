@@ -1,6 +1,5 @@
 import java.util.*;
-public class spiralOrder {
-
+public class totalSumOfMat {
     static void printMatrix(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
@@ -9,44 +8,47 @@ public class spiralOrder {
             System.out.println();
         }
     }
-
-    static void printSpiralOrder(int[][] matrix) {
-        int r = matrix.length;
+    static void findTotalSum(int[][] mat){
+        int r = mat.length;
         if(r == 0){
             return;
         }
-        int c = matrix[0].length;
+        int c = mat[0].length;
         int topRow = 0, bottomRow = r - 1, leftCol = 0, rightCol = c - 1;
         int totalElements = 0;
-        while (totalElements < r * c) {
-            // topRow -> leftCol to rightCol
-            for (int j = leftCol; j <= rightCol && totalElements < r * c; j++) {
-                System.out.print(matrix[topRow][j] + " ");
+        int sum = 0;
+        while(totalElements < r * c){
+
+            // topRow
+            for(int j = leftCol; j <= rightCol && totalElements < r * c; j++){
+                sum += mat[topRow][j];
                 totalElements++;
             }
             topRow++;
 
-            // rightCol -> topRow to bottomRow
-            for (int i = topRow; i <= bottomRow && totalElements < r * c; i++) {
-                System.out.print(matrix[i][rightCol] + " ");
+            // rightCol
+            for(int i = topRow; i <= bottomRow && totalElements < r * c; i++){
+                sum += mat[i][rightCol];
                 totalElements++;
             }
             rightCol--;
-            // bottomRow -> rightCol tp leftCol
-            for (int j = rightCol; j >= leftCol && totalElements < r * c; j--) {
-                System.out.print(matrix[bottomRow][j] + " ");
+
+            // bottomRow
+            for(int j = rightCol; j >= leftCol && totalElements < r * c; j--){
+                sum += mat[bottomRow][j];
                 totalElements++;
             }
             bottomRow--;
-            // leftCol -> bottomRow to topRow
-            for (int i = bottomRow; i >= topRow && totalElements < r * c; i--) {
-                System.out.print(matrix[i][leftCol] + " ");
+
+            // leftCol
+            for(int i = bottomRow; i >= topRow && totalElements < r * c; i--){
+                sum += mat[i][leftCol];
                 totalElements++;
             }
             leftCol++;
         }
+        System.out.println(sum);
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter rows and columns of matrix");
@@ -66,7 +68,7 @@ public class spiralOrder {
 
         // rotate(matrix, r);
         System.out.println("Spiral order");
-        printSpiralOrder(matrix);
+        findTotalSum(matrix);
     }
+    
 }
-// given an "n * m" matrix 'a' return all elements of the matrix in spiral order
