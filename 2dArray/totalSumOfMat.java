@@ -9,49 +9,36 @@ public class totalSumOfMat {
         }
     }
     static void findTotalSum(int[][] mat){
-        int r = mat.length;
-        if(r == 0){
+        if (mat == null || mat.length == 0) {
+            System.out.println(0);
             return;
-        }
-        int c = mat[0].length;
-        int topRow = 0, bottomRow = r - 1, leftCol = 0, rightCol = c - 1;
-        int totalElements = 0;
-        int sum = 0;
-        while(totalElements < r * c){
-
-            // topRow
-            for(int j = leftCol; j <= rightCol && totalElements < r * c; j++){
-                sum += mat[topRow][j];
-                totalElements++;
             }
-            topRow++;
-
-            // rightCol
-            for(int i = topRow; i <= bottomRow && totalElements < r * c; i++){
-                sum += mat[i][rightCol];
-                totalElements++;
+             int n = mat.length;
+            int sum = 0;
+            // top & bottom row
+            for(int i = 0; i < n; i++){
+                sum += mat[0][i];
+                sum += mat[n-1][i];
             }
-            rightCol--;
-
-            // bottomRow
-            for(int j = rightCol; j >= leftCol && totalElements < r * c; j--){
-                sum += mat[bottomRow][j];
-                totalElements++;
+            // left & right column 
+            for(int i = 1; i < n - 1; i++){
+                sum += mat[i][0];
+                sum += mat[i][n-1];
             }
-            bottomRow--;
-
-            // leftCol
-            for(int i = bottomRow; i >= topRow && totalElements < r * c; i--){
-                sum += mat[i][leftCol];
-                totalElements++;
+            for(int i = 1; i < n -1; i++){
+                sum += mat[i][n-1-i];
             }
-            leftCol++;
-        }
-        System.out.println(sum);
+            for(int i = 1; i < n - 1; i++){
+                sum += mat[i][i];
+            }
+            if(n % 2 != 0){
+                sum -= mat[n/2][n/2];
+            }
+            System.out.println(sum);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter rows and columns of matrix");
+        System.out.println("Enter rows and columns of matrix: ");
         int r = sc.nextInt();
         int c = sc.nextInt();
 
@@ -63,11 +50,11 @@ public class totalSumOfMat {
                 matrix[i][j] = sc.nextInt();
             }
         }
-        System.out.println("Input matrix");
+        System.out.println("Input matrix: ");
         printMatrix(matrix);
 
         // rotate(matrix, r);
-        System.out.println("Spiral order");
+        System.out.println("Total Sum: ");
         findTotalSum(matrix);
     }
     
