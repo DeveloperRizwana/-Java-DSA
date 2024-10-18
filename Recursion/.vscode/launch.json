@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "removeOccurrences",
+            "request": "launch",
+            "mainClass": "removeOccurrences",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "Gcd",
+            "request": "launch",
+            "mainClass": "Gcd",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "allIndices",
+            "request": "launch",
+            "mainClass": "allIndices",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "alternateSumSeries",
+            "request": "launch",
+            "mainClass": "alternateSumSeries",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "armstrongNumber",
+            "request": "launch",
+            "mainClass": "armstrongNumber",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "arrayRecursion",
+            "request": "launch",
+            "mainClass": "arrayRecursion",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "arraySum",
+            "request": "launch",
+            "mainClass": "arraySum",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "countDgits",
+            "request": "launch",
+            "mainClass": "countDgits",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "example",
+            "request": "launch",
+            "mainClass": "example",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "findAllIndices",
+            "request": "launch",
+            "mainClass": "findAllIndices",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "lastIndexOfTarget",
+            "request": "launch",
+            "mainClass": "lastIndexOfTarget",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "linearSearchInArray",
+            "request": "launch",
+            "mainClass": "linearSearchInArray",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "multiples",
+            "request": "launch",
+            "mainClass": "multiples",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "multiplicationOfXandY",
+            "request": "launch",
+            "mainClass": "multiplicationOfXandY",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "power",
+            "request": "launch",
+            "mainClass": "power",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "printNToOne",
+            "request": "launch",
+            "mainClass": "printNToOne",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "printOneToN",
+            "request": "launch",
+            "mainClass": "printOneToN",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "sorted",
+            "request": "launch",
+            "mainClass": "sorted",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "sumOfNDigits",
+            "request": "launch",
+            "mainClass": "sumOfNDigits",
+            "projectName": "Recursion_41c49374"
+        }
+    ]
+}
