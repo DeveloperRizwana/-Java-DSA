@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "frogJump",
+            "request": "launch",
+            "mainClass": "frogJump",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "subSetSum",
+            "request": "launch",
+            "mainClass": "subSetSum",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "printSubsequence",
+            "request": "launch",
+            "mainClass": "printSubsequence",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "returnSubsequences",
+            "request": "launch",
+            "mainClass": "returnSubsequences",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "checkPalindrome",
+            "request": "launch",
+            "mainClass": "checkPalindrome",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "reverseString",
+            "request": "launch",
+            "mainClass": "reverseString",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
             "name": "removeOccurrences",
             "request": "launch",
             "mainClass": "removeOccurrences",
