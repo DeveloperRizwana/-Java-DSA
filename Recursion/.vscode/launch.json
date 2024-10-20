@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "solution",
+            "request": "launch",
+            "mainClass": "solution",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "keypadCombination",
+            "request": "launch",
+            "mainClass": "keypadCombination",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
             "name": "frogJump",
             "request": "launch",
             "mainClass": "frogJump",

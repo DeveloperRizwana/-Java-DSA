@@ -17,7 +17,7 @@ public class power {
         }
     }
     public static void main(String[] args) {
-        System.out.println("Power: " + printPower(5,5));
+        System.out.println("Power: " + printPower(2,5));
     }
     
 }
