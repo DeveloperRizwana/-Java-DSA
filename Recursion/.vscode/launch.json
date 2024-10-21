@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "codingPractice",
+            "request": "launch",
+            "mainClass": "codingPractice",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "codingNinjas",
+            "request": "launch",
+            "mainClass": "codingNinjas",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
             "name": "solution",
             "request": "launch",
             "mainClass": "solution",

@@ -34,3 +34,26 @@ public class linearSearchInArray {
     }
     
 }
+    
+// static boolean checkNumber(int[] arr, int x){
+//     if(arr.length == 0){
+//         return false;
+//     }
+//     if(arr[0] == x){
+//         return true;
+//     }     
+//     int[] smallAns = new int[arr.length-1];
+//     for(int i = 1; i < arr.length; i++){
+//         smallAns[i-1] = arr[i];
+
+//     }
+    
+//     return checkNumber(smallAns, x);
+// }
+// public static void main(String[] args) {
+    
+//     int[] arr = {2, 13, 4, 1, 3, 6, 28};
+//     System.out.println(checkNumber(arr, 3));
+    
+// }
+
