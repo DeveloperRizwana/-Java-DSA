@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countZeroesRec",
+            "request": "launch",
+            "mainClass": "countZeroesRec",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
             "name": "codingPractice",
             "request": "launch",
             "mainClass": "codingPractice",

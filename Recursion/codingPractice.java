@@ -1,23 +1,21 @@
 public class codingPractice {
-    static int index(int[] input, int x){
-        return allIndices(input, x, 0);
+    static boolean isPalindrome(String str){
+        if(str.length() == 0 || str.length() == 1) return true;
 
-    }
-    static int allIndices(int[] input, int x, int idx){
-        if(idx == input.length){
-            return -1;
-        }
-        int result = allIndices(input, x, idx+1);
-        if(input[idx] == x){
-            return idx;
-        }
-        return result;
+        char curChar = str.charAt(0);
+        char laString = str.charAt(str.length()-1);
+        if(curChar == laString){
+            return isPalindrome(str.substring(1, str.length()-1));
 
+        }else {
+            return false;
+        }
     }
     public static void main(String[] args) {
-        System.out.println("all Indices: ");
-        int[] arr = {2, 1, 1, 3, 4};
-        System.out.println(index(arr, 1));
+        System.out.println("Palindrome: ");
+        String str = "asba";
+        System.out.println(isPalindrome(str));
+
     }
     
 }
