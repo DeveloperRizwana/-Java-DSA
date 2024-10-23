@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeX",
+            "request": "launch",
+            "mainClass": "removeX",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "replacePi",
+            "request": "launch",
+            "mainClass": "replacePi",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
             "name": "countZeroesRec",
             "request": "launch",
             "mainClass": "countZeroesRec",
