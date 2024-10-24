@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "replaceCharacter",
+            "request": "launch",
+            "mainClass": "replaceCharacter",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "addStar",
+            "request": "launch",
+            "mainClass": "addStar",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "convertStringToInt",
+            "request": "launch",
+            "mainClass": "convertStringToInt",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
             "name": "removeX",
             "request": "launch",
             "mainClass": "removeX",
