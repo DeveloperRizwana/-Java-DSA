@@ -11,7 +11,7 @@ public class replaceCharacter {
         }
     }
     public static void main(String[] args) {
-        System.out.println("Ans: " + replace("hello", 'l', 'x'));
+        System.out.println("Replaced character: " + replace("hello", 'l', 'x'));
     }
     
 }

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "towerOfHonai",
+            "request": "launch",
+            "mainClass": "towerOfHonai",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "removeConsecutiveDuplicate",
+            "request": "launch",
+            "mainClass": "removeConsecutiveDuplicate",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
             "name": "replaceCharacter",
             "request": "launch",
             "mainClass": "replaceCharacter",

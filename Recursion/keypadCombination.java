@@ -13,7 +13,7 @@ public class keypadCombination {
     }
     public static void main(String[] args) {
         System.out.println("Keypad combination: ");
-        String dig = "23";
+        String dig = "236";
         String[] kp = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         combination(dig, kp, "");
     }
