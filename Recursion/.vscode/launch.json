@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Staircase",
+            "request": "launch",
+            "mainClass": "Staircase",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
+            "name": "CheckAB",
+            "request": "launch",
+            "mainClass": "CheckAB",
+            "projectName": "Recursion_41c49374"
+        },
+        {
+            "type": "java",
             "name": "towerOfHonai",
             "request": "launch",
             "mainClass": "towerOfHonai",
