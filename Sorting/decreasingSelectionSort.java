@@ -14,7 +14,7 @@ public class decreasingSelectionSort {
         }
     }
     public static void main(String[] args) {
-        System.out.println("Decreasing selection sort: ");
+        System.out.println("Decreasing selection sort: "); 
         int[] arr = {2, 4, 3, 8, 7};
         selectionSort(arr);
         for(int i = 0; i < arr.length; i++){
