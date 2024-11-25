@@ -1,7 +1,7 @@
 public class binarySearch {
     // static int search(int[] arr, int st, int end,  int k){
     //     while (st <= end) {
-    //         int mid = (st+end)/2;
+    //         int mid = st+(end-st)/2;
     //         if (k == arr[mid]) {
     //             return mid;
     //         } else if(k > arr[mid]){
@@ -22,7 +22,7 @@ public class binarySearch {
         int st = 0, end = arr.length-1;
 
         while (st <= end) {
-            int mid = (st+end)/2;
+            int mid = st+(end-st)/2;
             if(k == arr[mid]){
                 return true;
             } else if(k < arr[mid]){
@@ -36,7 +36,7 @@ public class binarySearch {
     static boolean recursiveSearch(int[] arr, int st, int end, int k){
         if(st > end) return false;
 
-        int mid = (st+end)/2;
+        int mid = st+(end-st)/2;
         if (k == arr[mid]) {
             return true;
         } else if(k < arr[mid]){
@@ -55,7 +55,5 @@ public class binarySearch {
             System.out.println();
             k++;
         }
-       
     }
-
 }
