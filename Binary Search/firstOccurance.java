@@ -18,7 +18,7 @@ public class firstOccurance {
     public static void main(String[] args) {
         System.out.println("First occurance: ");
         int[] arr = {2, 5, 5, 5, 6, 6, 8};
-        System.err.println(search(arr, 0, arr.length-1, 6));
+        System.err.println(search(arr, 0, arr.length-1, 12));
 
     }
 }
