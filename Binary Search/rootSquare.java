@@ -11,7 +11,7 @@ public class rootSquare {
     //     int x = 100;
     //     System.out.println(square(x));
     // }
-    static int square(int x){
+    static int sqrt(int x){
         int st = 0, end = x;
         int ans = -1; 
         while (st <= end) {
@@ -24,7 +24,6 @@ public class rootSquare {
                 st = mid+1;
             } else {
                 end = mid - 1;
-                
             }
         }
         return ans;
@@ -32,7 +31,6 @@ public class rootSquare {
     public static void main(String[] args) {
         System.out.println("Sqaure root: ");
         int x = 25;
-        System.out.println(square(x));
+        System.out.println(sqrt(x));
     }
-    
 }
