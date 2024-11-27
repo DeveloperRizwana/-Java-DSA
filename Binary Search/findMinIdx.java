@@ -19,3 +19,5 @@ public class findMinIdx {
     }
     
 }
+//  A rotated sorted array is a sorted array on which rotation operation has been performed some numbers of times. Given a rotated sorted array,
+// find the index of the minimum element in the array.
