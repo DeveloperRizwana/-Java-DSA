@@ -1,4 +1,4 @@
-public class rotatedSoredArray {
+public class rotatedSortedArray {
     static int search(int[] a, int st, int end, int k){
         while (st <= end) {
             int mid = st + (end - st)/2;
