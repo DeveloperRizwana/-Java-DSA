@@ -20,3 +20,4 @@ public class peakIdxInMountainArray {
     }
     
 }
+// given a mountain array 'a' of length greater than 3, return the index 'i' such that arr[0]<arr[1]<....<arr[i-1] <arr[i]>arr[i+1]>...>arr[a.length-1]...this index is known as the peak index
