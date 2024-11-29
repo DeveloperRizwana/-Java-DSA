@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "binarySearch",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
+            "name": "distributeChocolate",
+            "request": "launch",
+            "mainClass": "distributeChocolate",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
+            "name": "findLastOccurance",
+            "request": "launch",
+            "mainClass": "findLastOccurance",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
+            "name": "findMinIdx",
+            "request": "launch",
+            "mainClass": "findMinIdx",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
+            "name": "findPeakElement",
+            "request": "launch",
+            "mainClass": "findPeakElement",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
+            "name": "firstOccurance",
+            "request": "launch",
+            "mainClass": "firstOccurance",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
+            "name": "peakIdxInMountainArray",
+            "request": "launch",
+            "mainClass": "peakIdxInMountainArray",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
+            "name": "rootSquare",
+            "request": "launch",
+            "mainClass": "rootSquare",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
+            "name": "rotatedSortedArray",
+            "request": "launch",
+            "mainClass": "rotatedSortedArray",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
+            "name": "searchInMatrix",
+            "request": "launch",
+            "mainClass": "searchInMatrix",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
+            "name": "sqrtWithPrecision",
+            "request": "launch",
+            "mainClass": "sqrtWithPrecision",
+            "projectName": "Binary Search_8dda31d9"
+        }
+    ]
+}
