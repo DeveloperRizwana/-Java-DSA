@@ -27,7 +27,7 @@ public class raceTrack {
     }
     public static void main(String[] args) {
         int[] a = {1, 2, 4, 8, 9};
-        int m = 3;
+        int m = 2;
         System.out.println("Result: ");
         System.out.println(optimalRaceTrack(a, m));
     }
