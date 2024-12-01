@@ -15,7 +15,7 @@ public class searchInsert {
     }
     public static void main(String[] args) {
         int[] a = {1,3,5,6};
-        int k = 2;
+        int k = 4;
         System.out.println("Result: ");
         System.out.println(search(a, k));
     }
