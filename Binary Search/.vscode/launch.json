@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "upperBound",
+            "request": "launch",
+            "mainClass": "upperBound",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
             "name": "lowerBound",
             "request": "launch",
             "mainClass": "lowerBound",
