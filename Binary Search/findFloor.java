@@ -14,6 +14,19 @@ public class findFloor {
             
         }
         return ans;
+        // int st = 0, end = a.length-1;
+        // int ans = a.length;
+        // while (st <= end) {
+        //     int mid = st + (end - st)/2;
+        //     if(a[mid] >= k) {
+        //         ans = mid;
+        //         end = mid - 1;
+        //     } else {
+        //         st = mid + 1;
+        //     }
+            
+        // }
+        // return ans;
     }
     public static void main(String[] args) {
         int[] a = {1, 2, 8, 10, 11, 12, 19};
