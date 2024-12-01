@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "find1stAndLastPosition",
+            "request": "launch",
+            "mainClass": "find1stAndLastPosition",
+            "projectName": "Binary Search_8dda31d9"
+        },
+        {
+            "type": "java",
             "name": "upperBound",
             "request": "launch",
             "mainClass": "upperBound",
