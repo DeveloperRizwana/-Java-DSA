@@ -7,15 +7,16 @@ public class toggleAllCharacters {
         // toggle -> capital letter to small and small letter to capital
         for(int i = 0; i < str.length(); i++){
             boolean flag = true;
-            char ch = str.charAt(i);
-            int asci = (int)ch;
-            if(asci >= 97) flag = false;
-            if(flag == true){ // capital
-                asci += 32;
+            char ch = str.charAt(i); // A
+            if(ch == ' ') continue;
+            int asci = (int)ch; // 65
+            if(asci >= 97) flag = false; // means it's a small letter
+            if(flag == true){ // it's a capital letter
+                asci += 32; // to change in small letter
                 char dh = (char)asci;
                 str.setCharAt(i, dh);
 
-            }else {
+            }else { // small
                 asci -= 32;
                 char dh = (char)asci;
                 str.setCharAt(i, dh);
