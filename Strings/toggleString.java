@@ -1,6 +1,7 @@
 public class toggleString {
     public static void main(String[] args) {
         String s = "PhYsIcS";
+        System.out.println(s);
          // toggle -> capital letter to small and small letter to capital
          for(int i = 0; i < s.length(); i++){
             boolean flag = true; // true -> capital letter
