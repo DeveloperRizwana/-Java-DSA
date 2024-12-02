@@ -6,7 +6,7 @@ public class toggleAllCharacters {
         System.out.println(str);
         // toggle -> capital letter to small and small letter to capital
         for(int i = 0; i < str.length(); i++){
-            boolean flag = true;
+            boolean flag = true; // true -> capital letter
             char ch = str.charAt(i); // A
             if(ch == ' ') continue;
             int asci = (int)ch; // 65
