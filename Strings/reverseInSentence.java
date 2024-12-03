@@ -1,6 +1,6 @@
 public class reverseInSentence {
     public static void main(String[] args) {
-        String str = "I am a student";
+        String str = "racecar kayak refer";
         String ans = "";
         StringBuilder sb = new StringBuilder("");
         for(int i = 0; i<str.length(); i++){
