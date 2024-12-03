@@ -4,8 +4,8 @@ public class checkPermutation {
         if(str1.length() != str2.length()) return false;
         int[] arr = new int[125];
         for(int i = 0; i < str1.length(); i++){
-                arr[str1.charAt(i)]++;
-                arr[str2.charAt(i)]--;
+                arr[str1.charAt(i)]++; // i -> a(ASCII value of 'a' is 97), so arr[97]= 1
+                arr[str2.charAt(i)]--; //i -> b(ASCII value of 'b' is 98), so arr[98]= -1
         }
         for(int i = 0; i < arr.length; i++){
             if(arr[i] != 0) return false;
