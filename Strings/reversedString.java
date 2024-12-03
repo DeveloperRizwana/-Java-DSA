@@ -1,6 +1,3 @@
-package Strings;
-
-import java.util.*;
 
 public class reversedString {
     public static void main(String[] args) {
