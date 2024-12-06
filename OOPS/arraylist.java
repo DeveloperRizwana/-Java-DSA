@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class arraylist {
     public static class  Arraylist {
         int[] arr = new int[2];
