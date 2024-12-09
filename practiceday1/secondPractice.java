@@ -1,5 +1,3 @@
-package practiceday1;
-
 import java.util.*;
 
 public class secondPractice {

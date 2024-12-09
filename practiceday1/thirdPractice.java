@@ -1,4 +1,3 @@
-package practiceday1;
 
 import java.util.*;
 

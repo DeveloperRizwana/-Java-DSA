@@ -1,6 +1,3 @@
-package practiceday1;
-
-import java.util.*;
 
 public class seventhPractice {
     public static void main(String[] args) {

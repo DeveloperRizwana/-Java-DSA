@@ -1,7 +1,3 @@
-package practiceday1;
-
-import java.util.*;
-
 public class sixthPractice {
     public static void main(String[] args) {
         int n = 5;

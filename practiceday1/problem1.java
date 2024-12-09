@@ -16,7 +16,6 @@ public class problem1 {
     }
 
     static void reverse(int[] arr, int i, int j) {
-        // int i = 0; j = arr.length - 1;
         while (i < j) {
             swap(arr, i, j);
             i++;
