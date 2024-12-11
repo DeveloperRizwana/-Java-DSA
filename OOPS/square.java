@@ -15,8 +15,8 @@ public class square {
         // area of square
         System.out.println("Area of square : " + sq.area());
 
-        // permeter of square
-        System.out.println("Permeter of square : " + sq.perimeter());
+        // perimeter of square
+        System.out.println("Perimeter of square : " + sq.perimeter());
     }
     
 }
