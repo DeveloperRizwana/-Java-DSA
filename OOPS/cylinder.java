@@ -39,8 +39,8 @@ public class cylinder {
         //cl.setHeight(5);
         System.out.println("Height of a cylinder: " + cl.getHeight());
 
-        System.out.println("The surface area of a cylinder: " + cl.surfaceAreaOfCylinder());
-        System.out.println("The volume of a cylinder: " + cl.volumeOfCylinder());
+        System.out.println("Surface area of the cylinder: " + cl.surfaceAreaOfCylinder());
+        System.out.println("Volume of the cylinder: " + cl.volumeOfCylinder());
     }
     
     
