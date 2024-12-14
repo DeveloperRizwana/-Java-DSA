@@ -13,7 +13,7 @@ public class firstClass {
 class SecondClass extends firstClass{
     SecondClass(int y){
         super(y);
-        System.out.println("Mai ek constructor hoon: ");
+        System.out.println("I am a constructor");
     }
 
     public static void main(String[] args) {
