@@ -1,0 +1,42 @@
+public class cylinder {
+    private int radius;
+    private int height;
+    double pi = 3.14159;
+
+
+    public double surfaceAreaOfCylinder(){
+        return 2*pi*radius*radius + 2*pi*height*radius;
+    }
+
+    public double volumeOfCylinder(){
+        return pi*radius*radius*height;
+
+    }
+
+    public int getRadius(){
+        return radius;
+    }
+    public void setRadius(int radius){
+        this.radius = radius;
+    }
+    public int getHeight(){
+        return height;
+    }
+    public void setHeight(int height){
+        this.height = height;
+    }
+
+    public static void main(String[] args) {
+        cylinder cl = new cylinder();
+        cl.setRadius(12);
+        System.out.println("Radius of a cylinder: " + cl.getRadius());
+
+        cl.setHeight(5);
+        System.out.println("Height of a cylinder: " + cl.getHeight());
+
+        System.out.println("The surface area of a cylinder: " + cl.surfaceAreaOfCylinder());
+        System.out.println("The volume of a cylinder: " + cl.volumeOfCylinder());
+    }
+    
+    
+}
