@@ -5,7 +5,7 @@ public class cylinder {
 
 
     public double surfaceAreaOfCylinder(){
-        return 2*pi*radius*radius + 2*pi*height*radius;
+        return 2*(pi*radius*radius) + 2*(pi*height*radius);
     }
 
     public double volumeOfCylinder(){
