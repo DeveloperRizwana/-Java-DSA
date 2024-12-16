@@ -1,7 +1,3 @@
-import javax.xml.catalog.CatalogManager;
-
-import org.w3c.dom.css.CSSMediaRule;
-
 interface camera1{
 
     void takeSnap();
@@ -52,10 +48,11 @@ class MySmartPhone1 extends MyCellPhone1 implements wifi1, camera1{
 
 public class PolymorphismInInterface {
     public static void main(String[] args) {
-        camera1 cam1 = new MySmartPhone1();
+        camera1 cam1 = new MySmartPhone1(); // this is a smartPhone but use it as a camera
         //cam1.getNetworks(); // ...-> NOT ALLOWED
         //cam1.connectToNetworks();  -> NOT ALLOWED
         cam1.recordVideoIn4k();
+        cam1.recordVideo();
     }
     
 }
