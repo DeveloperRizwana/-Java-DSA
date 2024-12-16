@@ -36,7 +36,12 @@ public class PracticeSet1 {
         h.bite();
         h.run();
         
-        
+        Monkey m = new Human();
+        m.Jump();
+        m.bite();
+
+        BasicAnimal b = new Human();
+        b.eat();
     }
     
 }
