@@ -27,6 +27,9 @@ class MySmartPhone extends MyCellPhone implements wifi, camera{
     public void takeSnap(){
        System.out.println("taking snap");
     }
+    public void recordVideo(){
+        System.out.println("Recording video");
+    }
 
     public void recordVideoIn4k(){
         System.out.println("taking snap and recording video in 4k");
