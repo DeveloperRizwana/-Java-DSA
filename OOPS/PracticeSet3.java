@@ -29,10 +29,12 @@ class Tv implements TvRemote{
 
 public class PracticeSet3 {
     public static void main(String[] args) {
+        //TV instance
         Tv t = new Tv();
         t.changeChanel();
         t.increaseVolume();
 
+        //remote instance (smart tv remote)
         SmartTvRemote sr = new SmartTvRemote();
         sr.changeChanel();
         sr.increaseVolume();
