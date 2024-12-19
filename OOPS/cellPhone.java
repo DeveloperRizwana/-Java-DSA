@@ -1,7 +1,7 @@
 public class cellPhone {
 
    public void ring(){
-    System.out.println("Ringign.....");
+    System.out.println("Ringing.....");
    }
 
    public void vibrate(){
