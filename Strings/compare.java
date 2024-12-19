@@ -1,7 +1,3 @@
-package Strings;
-
-import java.util.*;
-
 public class compare {
     public static void main(String[] args) {
         String name1 = "Hello";
@@ -18,5 +14,5 @@ public class compare {
         }
 
     }
-
+}
 }

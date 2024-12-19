@@ -9,7 +9,6 @@ public class radixSort {
         return mx;
     }
     static void countSort(int[] arr, int place){
-
         int n = arr.length;
         int[] output = new int[n];
         int[] count = new int[10];
